@@ -1,4 +1,10 @@
+<div align="center">
+
 # EDITOR DE CONTENIDO.beta
+  
+</div>
+
+
 
 <div align="center">
 

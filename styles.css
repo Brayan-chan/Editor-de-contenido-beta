@@ -1,0 +1,48 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#editor {
+    margin: 20px;
+}
+
+#image-container {
+    width: 300px;
+    height: 200px;
+    border: 3px solid #000000;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+#content {
+    margin-top: 10px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    padding: 80px;
+    box-sizing: border-box;
+    background-color: #ffffff; /* Fondo blanco por defecto */
+}
+
+#color-picker {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#color-picker input {
+    margin-bottom: 10px;
+}

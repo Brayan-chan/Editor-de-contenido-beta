@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Contenido</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="editor">
+        <div id="image-container">
+            <img src="placeholder.jpg">
+            <input type="file" id="image-upload" accept="image/*">
+        </div>
+        <div id="content">
+            <input type="text" id="title" placeholder="Título">
+            <textarea id="description" placeholder="Descripción"></textarea>
+            <input type="text" id="footer" placeholder="Footer">
+        </div>
+    </div>
+
+    <div id="color-picker">
+        <label for="background-color">Fondo:</label>
+        <input type="color" id="background-color" value="#ffffff">
+
+        <label for="image-border-color">Borde:</label>
+        <input type="color" id="image-border-color" value="#000000">
+
+        <label for="text-color">Texto:</label>
+        <input type="color" id="text-color" value="#000000">
+
+        <label for="text-background-color">FondoTexto:</label>
+        <input type="color" id="text-background-color" value="#ffffff">
+
+        <label for="footer-color">TextoFooter:</label>
+        <input type="color" id="footer-color" value="#000000">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
